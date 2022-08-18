@@ -17,14 +17,14 @@
     <ClInclude Include="stdafx.h">
       <Filter>Headers</Filter>
     </ClInclude>
-    <ClInclude Include="targetver.h">
-      <Filter>Headers</Filter>
-    </ClInclude>
     <ClInclude Include="Headers\defines.h">
       <Filter>Headers</Filter>
     </ClInclude>
     <ClInclude Include="Sources\InputCheck\inputCheck.h">
       <Filter>Sources\InputCheck</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\targetver.h">
+      <Filter>Headers</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
