@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{5ccc63db-479b-42b5-ad4f-d23516c69f22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Framework">
+      <UniqueIdentifier>{8ebab35d-946b-4c66-99c9-01937ecb9e75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\pch">
+      <UniqueIdentifier>{642cc001-06d6-4fcd-b090-d6370946ba4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Defines">
+      <UniqueIdentifier>{884a3882-4a91-40ec-b64e-3500aee27ac8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Vector">
+      <UniqueIdentifier>{778bb1f1-43ac-48ef-a0f6-ccb88b1d7b29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Vector\Vec2">
+      <UniqueIdentifier>{871ad032-0387-468f-8986-4334f7b80b70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Template">
+      <UniqueIdentifier>{6b899a5d-2ba2-4716-bd3f-5bf93fb80728}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Vector\Vec3">
+      <UniqueIdentifier>{21c4639b-af6d-457b-9424-22bca0859ccd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Singleton">
+      <UniqueIdentifier>{1d7bc3bf-bcd4-4f99-b8f3-f1f439d3d43b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Axis">
+      <UniqueIdentifier>{7b4c71c6-ef07-4b15-81ae-129377479b09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Random">
+      <UniqueIdentifier>{8b1bb263-448c-4dff-b92b-6c95e9cec38b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Color">
+      <UniqueIdentifier>{3e28e81f-df17-4ffd-8dcb-db9e162f97bf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Sources\framework\framework.h">
+      <Filter>Sources\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\pch\pch.h">
+      <Filter>Sources\pch</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Defines\Defines.h">
+      <Filter>Sources\Defines</Filter>
+    </ClInclude>
+    <ClInclude Include="KitLib.h">
+      <Filter>Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Template\Template.h">
+      <Filter>Sources\Template</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Vector\Vec2\Vec2.h">
+      <Filter>Sources\Vector\Vec2</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Vector\Vec3\Vec3.h">
+      <Filter>Sources\Vector\Vec3</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Singleton\Singleton.h">
+      <Filter>Sources\Singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Axis\Axis.h">
+      <Filter>Sources\Axis</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Random\Random.h">
+      <Filter>Sources\Random</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Color\Color.h">
+      <Filter>Sources\Color</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Sources\pch\pch.cpp">
+      <Filter>Sources\pch</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Template\Template.cpp">
+      <Filter>Sources\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Vector\Vec2\Vec2.cpp">
+      <Filter>Sources\Vector\Vec2</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Vector\Vec3\Vec3.cpp">
+      <Filter>Sources\Vector\Vec3</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Axis\Axis.cpp">
+      <Filter>Sources\Axis</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Random\Random.cpp">
+      <Filter>Sources\Random</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Color\Color.cpp">
+      <Filter>Sources\Color</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
